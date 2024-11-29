@@ -32,27 +32,36 @@
 
 
 
-.hero-content img {
-    position: relative;
-    left: -20px;
-    top: 70px;
+.hero-img {
+    position: absolute;
+    left: 650px;
+    top: 90px;
     width: 1000px;
     z-index: -1;
-}
-/* .hero-content-img {
-    width: 2000px;
+    /* border: 1px solid; */
 }
 
-.hero-content-img img {
-    width: 100%;
-} */
+.plane-illustration {
+    width: 179.296px;
+    height: 120.833px;
+    transform: rotate(-15.841deg);
+    flex-shrink: 0;
+    position: absolute;
+    top: 30%;
+    left: 58%;
+}
 
+.plane-illustration-2 {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
 
 .hero svg {
     position: absolute;
     left: 860px;
     top: -100px;
-    z-index: -1;
+    z-index: -10;
 
 }
 
@@ -61,7 +70,9 @@ header {
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding-block: 24px;
+    padding-block: 16px;
+    z-index: 2;
+    /* border: 1px solid; */
 }
 
 header img {
@@ -84,8 +95,46 @@ nav a {
 /* BOOKING SECTION */
 .booking {
     width: 100%;
-
-    height: 1120px;
-    z-index: 2;
+    height: 950px;
+    z-index: 0;
+    margin-top: 40px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(0deg, rgba(234, 192, 128, 0.50) 0%, rgba(234, 192, 128, 0.50) 100%), url(./Assets/Images/book\ section\ image.png) lightgray 50% / cover no-repeat;
+}
+
+.booking-container {
+    background-color: #ECF0FC;
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    align-items: center;
+    gap: 32px;
+}
+
+.select-service {
+    display: inline-flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#ECF0FC;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.10);
+    position: relative;
+    top: -50px;
+    /* border: 1px solid; */
+    width: 70%;
+    height: 120px;
+    border-radius: 20px;
+    padding-inline: 64px;
+    padding-block: 20px;
+}
+
+.select-service div {
+    padding-inline: 64px;
+    padding-block: 20px;
+    border-radius: 15px;
+    align-items: center; 
+    justify-content: center;
+    cursor: pointer;
 }

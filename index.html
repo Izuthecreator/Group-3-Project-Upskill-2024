@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./global-styles-rem.css">
+    <link rel="stylesheet" href="./global-styles.css">
     <link rel="stylesheet" href="./index.css">
 
 </head>
@@ -26,11 +26,12 @@
 <body>
     <main>
         <section class="hero">
+            <!-- HEADER SECTION -->
             <header class="flex-row">
                 <img src="./Assets/Logo image/Logo.png" alt="Elite travels logo">
                 <nav>
                     <a href="" class="captiontext-bold color-blue">Destinations</a>
-                    <a href="" class="captiontext-bold color-blue">Hotels</a>
+                    <a href="https://www.google.com/" target="_blank" class="captiontext-bold color-blue">Hotels</a>
                     <a href="" class="captiontext-bold color-blue">Flights</a>
                     <a href="" class="captiontext-bold color-blue">Support</a>
                     <a href="" class="captiontext-bold color-blue">Login</a>
@@ -48,19 +49,76 @@
                     d="M30.2915 295.475C-23.4454 203.963 7.90115 17.9231 30.2915 -63.6577L934.109 -198L1019.9 163.128L968.692 962.531C864.056 963.861 630.708 953.886 534.408 903.341C414.032 840.16 468.567 738.406 368.807 685.201C269.048 631.996 326.244 491.668 291.66 438.463C257.077 385.258 97.4627 409.866 30.2915 295.475Z"
                     fill="#F1D4A8" />
             </svg>
+            <!-- HERO SECTION -->
             <div class="hero-content flex-row">
                 <div class="hero-text flex-column">
                     <h1 class="color-blue" style="font-family: Volkhov;  font-size: 100px; font-weight: 700; letter-spacing: -4.92px;width: 600px;">Travel, enjoy, and live a fulfilled life</h1>
                     <h6 class="bodytext-bold" style="color: #808080;">BOOK INTERNATIONAL AND DOMESTIC FLIGHTS</h6>
                 </div>
                 <div>
-                    <img src="./Assets/Images/Hero image person.png" alt="Excited traveller">
+                    <img src="./Assets/Images/Hero image person.png" alt="Excited traveller" class="hero-img">
                 </div>
+                <img src="./Assets/Images/plane.png" alt="Plane illustration" class="plane-illustration">
+                <img src="./Assets/Images/plane-2.png" alt="Plane illustration" class="plane-illustration-2">
             </div>
         </section>
+        <!-- BOOKING SECTION -->
+        <section class="booking flex-column">
+            <div class="flex-column booking-container">
+                <div class="select-service flex-row">
+                    <div class="flex-row" style="background-color: #243A7B;">
+                        <h6 class="bodytext-bold" style="color: white; ">Flights</h6>
+                    </div>
+                    <div class="flex-row" style="border: 2px solid #243A7B;">
+                        <h6 class="bodytext" style="color: #243A7B; ">Hotels</h6>
+                    </div>
+                    <div class="flex-row" style="border: 2px solid #243A7B;">
+                        <h6 class="bodytext" style="color: #243A7B; ">Flights</h6>
+                    </div>
+                </div>
 
-        <section class="booking" style="margin: 0px;">
-            
+                <div class="flex-row" style="height: 60px; border: 1px soli green; width: 60%; align-items: center;justify-content: space-between; padding-inline: 24px;" class="flex-row">
+                    <!-- RADIO BUTTON DIV HERE -->
+                    <div class="flex-row" style="width: 45%; border: 1px soli red;height: 90%; align-items: center;gap: 4px;">
+                        <input type="radio" style="gap: 16px;"><span class="captiontext">One-way trip</span></input>
+                        <input type="radio" style="gap: 16px;"><span class="captiontext">Round trip</span></input>
+                    </div>
+                    <!-- AFTER RADIO BUTTON-->
+                    <div class="flex-row" style="width: 45%; border: 1px soli red;height: 90%; gap: 24px; align-items: center; justify-content: center;">
+                        <!-- <button class="button">Economy</button>
+                        <button class="button">Business class</button> -->
+                        <div class="flex-row" style="justify-content: center; align-items: center; padding: 12px;background-color: #434c66; border-radius: 5px;color: #ececec;"><h6 class="captiontext">Economy</h6></div>
+                        <div class="flex-row" style="justify-content: center; align-items: center; padding: 12px;border: 1px solid #434c66; border-radius: 5px;color: #434c66; cursor: pointer;"><h6 class="captiontext">Business Class</h6></div>
+                    </div>
+                </div>
+                <div class="flex-row" style="width: 70%; border: 1px solid #242424;height: 25%; border-radius: 20px;padding-inline: 40px; padding-block: 12px;align-items: center; gap: 40px; ">
+                    <div class="flex-column" style="gap: 4px;">
+                        <p class="bodytext">From</p>
+                        <p class="h6-bold">Lagos</p>
+                        <p class="bodytext">LOS, Murtala Muh...</p>
+                    </div>
+                    <img src="./Assets/Images/switch button.png" alt="switch button" style="width: 50px;cursor: pointer;">
+                    <div class="flex-column" style="gap: 4px;">
+                        <p class="bodytext">To</p>
+                        <p class="h6-bold">Sydney</p>
+                        <p class="bodytext">SYD, Sydney</p>
+                    </div>
+                    <div class="flex-column" style="gap: 4px;margin-left: 90px; padding-left: 50px; border-left: 2px solid grey;">
+                        <p class="bodytext">Passenger</p>
+                        <p class="h6-bold">1  <span class="bodytext">Adult</span></p>
+                        
+                    </div>
+                </div>
+                <div style="height: 60px; border: 1px solid green; width: 60%; align-items: center;justify-content: space-between; padding-inline: 24px;" class="flex-row">
+                    <div style="width: 40%; border: 1px solid red;height: 90%;">
+
+                    </div>
+                    <div style="width: 40%; border: 1px solid red;height: 90%;">
+
+                    </div>
+                </div>
+                <button class="button" style="position: relative; top: 15%;">Search</button>
+            </div>
         </section>
     </main>
     <footer>
