@@ -34,7 +34,7 @@ signInForm.addEventListener('submit', (event) => {
   // Perform sign-in logic here
   if (password === 'password123') {
     // Redirect to the home page with the default password
-    window.location.href = '../airport_booking_page.html?defaultPassword=password123';
+    window.location.href = '../index.html?defaultPassword=password123';
   } else {
     alert('Invalid password');
   }
@@ -51,5 +51,5 @@ signUpForm.addEventListener('submit', (event) => {
 
   // Perform sign-up logic here
   // For this example, we'll just redirect to the home page with the default password
-  window.location.href = '../airport_booking_page.html?defaultPassword=password123';
+  window.location.href = '../index.html/booking?defaultPassword=password123';
 });
