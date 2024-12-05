@@ -4,11 +4,13 @@
     margin: 0;
     padding: 0;
     /* margin-inline: 80px; */
+    text-decoration: none;
 }
 /* html {
     margin-inline: 80px;
     background-color: #ECF0FC;
 } */
+
 
 body {
     /* margin-inline: 80px; */

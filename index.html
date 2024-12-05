@@ -20,6 +20,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./global-styles-styles.css">
     <link rel="stylesheet" href="./index.css">
+    <!-- <link rel="stylesheet" href="./css_files/styles.css"> -->
 
 </head>
 
@@ -75,7 +76,7 @@
                         <h6 class="bodytext" style="color: #243A7B; ">Hotels</h6>
                     </div>
                     <div class="flex-row" style="border: 2px solid #243A7B;">
-                        <h6 class="bodytext" style="color: #243A7B; ">Flights</h6>
+                        <a href="./airport_booking_page.html"><h6 class="bodytext" style="color: #243A7B; ">Transport</h6></a>
                     </div>
                 </div>
 
@@ -160,7 +161,7 @@
         <!-- THIS IS FOR DESTINATIONS -->
 
         <section class="flex-column destinations" style="align-items: center;">
-            <h6 class="h6-bold">Top Destinations</h6>
+            <h6 class="h5-bold">Top Destinations</h6>
             <div class="destinations-container flex-row" style="width: 100%; justify-content: space-between;">
                 <div class="destinations-card flex-column">
                     <img src="./Assets/Images/destination 1.png" alt="" style="width:100%;">
@@ -200,7 +201,7 @@
 
         <!-- THIS IS FOR SEASONAL OFFERS -->
          <section class="flex-column seasonal">
-            <h6 class="h6-bold">Seasonal Offers</h6>
+            <h6 class="h5-bold">Seasonal Offers</h6>
             <div style="display: flex; flex-wrap: wrap;width: 100%;justify-content: center; gap: 32px;">
                 <div class="seasonal-card flex-row">
                     <img src="./Assets/Images/seasonal 1.png" alt="Image" width="200px" height="185px">
@@ -287,9 +288,96 @@
                 </div>
             </div>
          </section>
+        
+        <!-- THIS IS FOR CAMPAIGN -->
+        <section class="flex-row campaign">
+            <div class="flex-column" style="width: 45%;gap: 56px; margin-left: 80px;align-items: start;">
+                <div class="flex-column" style="gap: 16px;">
+                    <p class="h5-bold">Get the EliteTravels app</p>
+                    <p class="bodytext" style="color: #808080;width: 650px;">Download our Mobile App free today to book your flights, hotels, and visas and get amazing deals on the go!</p>
+                </div>
+                    <div class="flex-row" style="gap: 16px;">
+                    <img src="./Assets/Images/Google Play image.png" alt="">
+                    <img src="./Assets/Images/App Store image.png" alt="">
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="942" height="963" viewBox="0 0 942 963" fill="none" style="width: 1000.281px;
+            height: 1000.643px;
+            flex-shrink: 0;">
+                <path
+                    d="M30.2915 295.475C-23.4454 203.963 7.90115 17.9231 30.2915 -63.6577L934.109 -198L1019.9 163.128L968.692 962.531C864.056 963.861 630.708 953.886 534.408 903.341C414.032 840.16 468.567 738.406 368.807 685.201C269.048 631.996 326.244 491.668 291.66 438.463C257.077 385.258 97.4627 409.866 30.2915 295.475Z"
+                    fill="#F1D4A8" />
+            </svg>
+            <img src="./Assets/Images/campaign person.png" alt="Happy person" id="campaign-person">
+        </section>
+
+        <section class="flex-column company-logos">
+            <img src="./Assets/Images/logos images.png" alt="" width="90%">
+        </section>
+
+        <!-- THIS IS FOR SUBSCRIPTION -->
+         <section class="flex-row subscription">
+            <img src="./Assets/Images/globe illustration.png" alt="globe illustration" id="globe-1">
+            <div class="flex-column sub-content">
+                <p class="h6-bold" style="text-align: center; color: #5E6282;">Subscribe to get information, latest news and other interesting offers about EliteTravels</p>
+                <div class="flex-row" style="gap: 16px; width: 100%;">
+                    <input type="text"placeholder="Enter Email Address" class="input-text">
+                    <button class="button">Get Updates</button>
+                </div>
+            </div>
+            
+            <img src="./Assets/Images/globe illustration.png" alt="globe illustration" id="globe-2">
+         </section>
+
     </main>
     <footer>
+        <div class="footer-body">
 
+            <div class="inner inner1">
+                <h5>EliteTravels</h5>
+                <p>Book your trip in minutes</p>
+                <p>Control for much longer.</p>
+            </div>
+
+            <div class="inner inner2">
+                <div class="inner-links">
+                    <h5>Company</h5>
+                    <a href="">About</a>
+                    <a href="">Career</a>
+                    <a href="">Mobile</a>
+                </div>
+                <div class="inner-links">
+                    <h5>Contact</h5>
+                    <a href="">Help/FAQ</a>
+                    <a href="">Press</a>
+                    <a href="">Affiliates</a>
+                </div>
+                <div class="inner-links">
+                    <h5>More</h5>
+                    <a href="">Airline fees</a>
+                    <a href="">Airline</a>
+                    <a href="">Low Fair Tips</a>
+                </div>
+
+            </div>
+
+            <div class="inner inner3 socials">
+                <div class="links">
+                    <img src="media/facebook-icon.png" alt="">
+                    <img src="media/instagram-icon.png" alt="">
+                    <img src="media/tweeter-icon.png" alt="">
+                </div>
+
+                <p><strong>Discover our app</strong></p>
+                <div class="downloads">
+                    <img src="media/Google Play image.png" alt="">
+                    <img src="media/App Store image.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right"><p><strong>All rights reserved @elitetravels.co</strong></p></div>
     </footer>
 </body>
 
