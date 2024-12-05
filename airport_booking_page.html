@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- =========== SEO ============= -->
+
+    <meta name="og:title" content="Book your airport transport with ease">
+
+    <meta name="og:description" content="Book your airport transport with ease. Get a stress-free ride to and from the airport with our reliable services.">
+  
+    <meta name="og:image" content="https://example.com/image.jpg">
+  
+    <meta name="og:url" content="https://example.com/airport-booking-pages">
+  
+    <meta name="og:type" content="website">
+  
+    <meta name="og:site_name" content="Airport Booking">
+  
+    <meta name="twitter:card" content="summary_large_image">
+  
+    <meta name="twitter:title" content="Book your airport transport with ease">
+  
+    <meta name="description" content="Book your airport transport with ease. Get a stress-free ride to and from the airport with our reliable services.">
+  
+    <meta name="keywords" content="airport transport, airport shuttle, airport taxi, airport ride, airport booking">
+  
+    <meta name="author" content="Airport Booking Team">
+  
+    <meta name="robots" content="index, follow">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- <meta name="description" content="Book your airport transport with ease. Get a stress-free ride to and from the airport with our reliable services.">
+    <meta name="keywords" content="airport transport, airport booking, travel agency">
+    <meta name="author" content="Airport Booking Team">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/png" href="favicon.png" -->
+
+    <!-- =========Title======== -->
+    <title>Elite Travel - Airport Transport</title>
+
+    <!-- ======== CSS styles link============ -->
+
+    <link rel="stylesheet" href="./css_files/styles.css">
+    <link rel="stylesheet" href="./css_files/header-media-query.css" />
+
+    <!-- <link rel="stylesheet" href="./css_files/header-styles.css"> -->
+
+    <!-- ========== Favicon ============ -->
+     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/Frame 8.png">
+
+
+
+    <!-- ========= resources links========== -->
+  
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+
+  <!-- ============= Google Fonts ============ -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+
+<!-- =========== Script resources links =========== -->
+
+  <script
+    src="https://kit.fontawesome.com/77c55c74c7.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+
+  <!-- font Awsome icon link -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+  <body>
+
+    <!-- =============HEADER AND NAVIGATION SECTION=========== -->
+
+    <header class="header-container">
+
+      <nav class="nav-bar">
+        
+        <div class="logo">
+          
+          <div class="img-box"><img src="./assets/Frame 8.png" alt="" /></div>
+
+          <h1 class="logo-header"><a href="./index.html">EliteTravel</a></h1>
+        
+        </div>
+
+        <div class="menu-option">
+          
+          <ul class="nav-links">
+
+            <li class="hova">
+              <a href="/index.html" class="menu-item"  data-page="home">Destinations</a>
+            </li>
+
+            <li class="hova">
+              <a href="#" class="menu-item"  data-page="about">Hotels </a>
+            </li>
+
+            <li class="active" class="hova">
+              <a href="#" class="menu-item" data-page="services">Flights</a>
+            </li>
+
+            <li class="hova">
+              <a href="#" data-page="projects">Surppot</a>
+            </li>
+
+            <a href="./html-files/sign-in.html"><button class="btn-login" href="">Login</button></a>
+            
+            <a href="./html-files/sign-up.html"><button class="btn-sign-in" href="">Sign up</button></a>
+
+            <div class="language-selector-box"></div>
+              <!-- <i class="fas fa-globe"></i> -->
+              <select class="language-selector">
+                <option value="EN">EN</option>
+                <option value="FR">FR</option>
+              </select>
+            </div>
+          </ul>
+
+
+        </div>
+
+         <!-- ================HAMBUGER MENU================== -->
+
+      <div class="hamburger-container">
+        <div class="hamburger-menu">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </div>
+
+        <!-- ===========MOBILE MENU CONTENT============ -->
+        
+        <div class="mobile-menu">
+          <nav class="mobile-nav">
+            <ul>
+              <li><a href="/index.html">Destinations</a></li>
+
+              <li><a href="#">Hotels <span class="arrow-icon"><i class="fa fa-angle-down"></i></span></a>
+              </li>
+
+              <li><a href="#">Flights<span class="arrow-icon"><i class="fa fa-angle-down"></i></span></a>
+              </li>
+
+              <li>
+                <a href="#">Support<span class="arrow-icon"><i class="fa fa-angle-down"></i></span></a>
+              </li>
+                <!-- <a class="signintext" href="./html files/signIn.html">Sign In</a> -->
+
+                <div class="m-btn">
+                  <a href="./html-files/sign-in.html"><button class="btn-login" href="">Login</button></a>
+                  <a href="./html-files/sign-up.html"><button class="btn-sign-in" href="">Sign up</button></a>
+                </div>
+
+              <div class="language-selector" id="loc">
+              <i class="fas fa-globe"></i>
+              <select class="language-selector">
+                <option value="EN">EN</option>
+                <option value="FR">FR</option>
+              </select>
+            </div>
+
+            </div>
+
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      </nav>
+
+    </header>
+      
+
+    <main>
+      <section class="booking-section">
+        <h1>Book your stress-free airport transport</h1>
+        <p>The best transport services at the best rates.</p>
+
+        <div class="tab-container">
+
+          <div class="tabs">
+            <button id="pickup-tab" class="tab active">AIRPORT PICK-UP</button>
+            <button id="dropoff-tab" class="tab">AIRPORT DROP-OFF</button>
+          </div>
+
+          <div class="tab-content">
+
+            <!-- =========Pick Up Content============= -->
+
+            <div id="pickup-content" class="content active">
+
+              <form>
+                <!-- <label for="pickup-passenger">1 Passenger</label> -->
+                <select id="passengers">
+                  <option value="1">1 Passenger</option>
+                  <option value="2">2 Passengers</option>
+                  <option value="3">3 Passengers</option>
+                  <option value="4">4 Passengers</option>
+                  <option value="5">5 Passengers</option>
+                </select>
+
+                <div class="form-grid">
+
+                  <div class="icon-label">
+                    <i class="fas fa-map"></i>
+                    <label for="pickup-airport">
+                      Pick-Up From Airport
+                      <input
+                        type="text"
+                        id="pickup-airport"
+                        placeholder="Enter airport"
+                      />
+                    </label>
+                  </div>
+
+                  <div class="icon-label">
+                    <i class="fas fa-plane"></i>
+                    <label for="dropoff-address">
+                      Drop-off address
+                      <input
+                        type="text"
+                        id="dropoff-address"
+                        placeholder="Enter city"
+                      />
+                    </label>
+                  </div>
+
+                  <div class="icon-label">
+                    <i class="fas fa-plane"></i>
+                    <label for="pickup-date">
+                      Pick up-date
+                      <input
+                        type="date"
+                        id="pickup-date"
+                        placeholder="Pick up date"
+                    /></label>
+                  </div>
+
+                  <div class="icon-label">
+                    <i class="fas fa-plane"></i>
+                    <label for="pickup-time">
+                      Pick up time
+                      <input
+                        type="time"
+                        id="pickup-time"
+                        placeholder="Pick up time"
+                    /></label>
+                  </div>
+
+                </div>
+
+              </form>
+
+            </div>
+
+            <!-- =========Drop-Off Content============= -->
+
+            <div id="dropoff-content" class="content">
+
+              <form>
+                
+                <select id="passengers">
+                  <option value="1">1 Passenger</option>
+                  <option value="2">2 Passengers</option>
+                  <option value="3">3 Passengers</option>
+                  <option value="4">4 Passengers</option>
+                  <option value="5">5 Passengers</option>
+                </select>
+
+                <div class="form-grid">
+
+                  <div class="icon-label">
+                    <i class="fas fa-map"></i>
+                    <label for="pickup-airport">
+                      Drop-Off Airport
+                      <input
+                        type="text"
+                        id="pickup-airport"
+                        placeholder="Enter airport"
+                      />
+                    </label>
+                  </div>
+
+                  <div class="icon-label">
+                    <i class="fas fa-plane"></i>
+                    <label for="dropoff-address">
+                      Drop-off address
+                      <input
+                        type="text"
+                        id="dropoff-address"
+                        placeholder="Enter city"
+                      />
+                    </label>
+                  </div>
+
+                  <div class="icon-label">
+                    <i class="fas fa-plane"></i>
+                    <label for="dropoff-date"
+                      >Drop-Off-date
+                      <input
+                        type="date"
+                        id="dropoff-date"
+                        placeholder="Drop Off date"
+                    /></label>
+                  </div>
+
+                  <div class="icon-label">
+                    <i class="fas fa-plane"></i>
+                    <label for="dropoff-time">
+                      Pick up time
+                      <input
+                        type="time"
+                        id="dropoff-time"
+                        placeholder="Drop Off time"
+                    /></label>
+                  </div>
+
+                </div>
+
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <button class="search-btn">SEARCH</button>
+        <!-- <p>
+          <small>
+            *All prices are subject to change without prior notice. Please call
+            for a quote.
+          </small>
+        </p> -->
+      </section>
+
+      <section class="info-section">
+        <div class="info-box">
+          <h3>Professional Service</h3>
+          <p>
+            We use reputable airport transfer service providers employing
+            professional and reliable drivers.
+          </p>
+        </div>
+
+        <div class="info-box">
+          <h3>Free Cancellation</h3>
+          <p>
+            If your plans change, you can cancel your reservation free of charge
+            up to 24 hours before the scheduled pick up time.
+          </p>
+        </div>
+        <div class="info-box info-box3">
+          <h3>Low-Cost Transport</h3>
+          <p>
+            Our team compares airport taxi prices daily to offer you the lowest
+            rate for each vehicle category.
+          </p>
+        </div>
+      </section>
+
+      <section class="steps-section">
+        <h2>3 steps to book an airport transport</h2>
+        <div class="steps">
+          <div class="step">
+            <h4>Step 1</h4>
+            <p>
+              Enter your pick-up point, date, and time, and select your car.
+            </p>
+          </div>
+
+          <i class="fa-solid fa-angles-right main-angle "></i>
+          
+          <i class="fa-solid fa-angles-down mobile-angle"></i>
+
+          <div class="step">
+            <h4>Step 2</h4>
+            <p>
+              Verify the booking details and select your preferred payment
+              method.
+            </p>
+          </div>
+
+          <i class="fa-solid fa-angles-right main-angle "></i>
+
+          <i class="fa-solid fa-angles-down mobile-angle"></i>
+
+          <div class="step">
+            <h4>Step 3</h4>
+            <p>Your driver will pick you up at the given location and time.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========= Footer Section =============== -->
+
+    <footer class="footer">
+
+      <div class="footer-divider">
+
+        <div class="about-us">
+          <h4>Elite Travels</h4>
+          <p>Book your trip in minutes Control for much longer.</p>
+        </div>
+
+        <div class="footer-links">
+          <div class="link-group">
+            <div class="links">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Mobile</a></li>
+              </ul>
+            </div>
+            <div class="links">
+              <h4>Contact</h4>
+              <ul>
+                <li><a href="#">Help/FAQ</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Affiliates</a></li>
+              </ul>
+            </div>
+            <div class="links">
+              <h4>More</h4>
+              <ul>
+                <li><a href="#">Airlinefees</a></li>
+                <li><a href="#">Airline</a></li>
+                <li><a href="#">Low Fare Tips</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="socials">
+            <div class="social-icons">
+              <a href="#"
+                ><img src="./assets/facebook-icon.png" alt="facebook"
+              /></a>
+              <a href="#"
+                ><img src="./assets/instagram-icon.png" alt="instagram"
+              /></a>
+              <a href="#"
+                ><img src="./assets/tweeter-icon.png" alt="tweeter/X"
+              /></a>
+              <!-- <a href="#"><i class="fab fa-facebook-square"></i></a>
+              <a href="#"><i class="fab fa-twitter-square"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+             <a href="#"><i class="fab fa-youtube"></i></a> -->
+            </div>
+            <div class="app-icons">
+              <p>Download our app.</p>
+              <div class="specific-apps">
+                <a href="#"
+                  ><img src="./assets/Google Play.png" alt="App Store"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/Play Store.png" alt="Google Play"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="rights">© 2024 Elite Travels. All rights reserved.</p>
+    </footer>
+
+    <script src="./javascript_file/airport_booking_page.js"></script>
+    
+    <script src="./javascript_file/menu-active.js"></script>
+
+    <script src="./javascript_file/mobile-toggle.js"></script>
+  </body>
+</html>
